@@ -5,11 +5,11 @@ html {
 }
 
 #nave{
-    margin-left: 4em;
+    padding-left: 4em;
     
 }
 #mynavbar{
-    margin-left: 15em;
+    padding-left: 15em;
 }
 .navbar-text{
     font-size: 2em;
@@ -24,7 +24,7 @@ html {
 }
 
 .d-block{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 #contbsas{
@@ -75,6 +75,50 @@ html {
     font-size: 0.7em;
     justify-content: left;
 }
+
+#donde{
+
+    padding-top: 2em;
+    padding-right: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding-left: 0em;
+    color: #fcfcfc;
+
+}
+#honolulu{
+    margin-right: 0em;
+    padding-right: 0em;
+}
+
+#octubre{
+    padding-top: 1.5em;
+}
+
+#convora{
+    padding: 2em;
+}
+
+#footer{
+    background-color: rgb(51, 102, 153);
+    padding-top: 1em;
+    font-size: 0.8em;
+    text-align: center;
+    color: #fcfcfc;
+
+}
+
+
+#ft2, #ft3, #ft4, #ft5, #ft6, #ft7{
+    margin-right: 3em;
+    margin-left: 2em;
+    padding-left: 1em;
+    padding-right: 0em;
+    
+
+}
+
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */

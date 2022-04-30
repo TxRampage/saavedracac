@@ -22,16 +22,16 @@
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav m-sm-1">
               <li class="nav-item">
-                <a class="nav-link" href="#">La conferencia</a>
+                <a class="nav-link" href="#bsas">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Oradores</a>
+                <a class="nav-link" href="#oradores">Oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">El lugar y la fecha</a>
+                <a class="nav-link" href="#donde">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Coviértete en orador</a>
+                <a class="nav-link" href="#convora">Coviértete en orador</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-success" href="#">Comprar Tickets</a>
@@ -69,7 +69,7 @@
              <div class="carousel-caption" id="contbsas">
               <h1>Conf Bs As </h1>
               <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo, y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-              <button type="button" class="btn btn-outline-secondary">Quiero ser orador</button>
+              <button type="button" class="btn btn-outline-secondary" onclick="document.location= '#convora'"> Quiero ser orador</button>
               <button type="button" class="btn btn-success">Comprar Tickets</button>
              </div>
           </div>
@@ -81,15 +81,14 @@
            <span class="carousel-control-next-icon"></span>
          </button>
        
-  </div>
+ </div>
+ 
+ <div id="oradores" class="conteiner-fluid">
+   <h6 style="color: grey;text-align: center;font-size: 0.8em;">CONOCE A LOS</h6>
+   <p style="text-align: center;font-weight: bold;font-size: 2em;">ORADORES</p>
+ </div>
 
-
-    <div id="oradores" class="conteiner-fluid">
-        <h6 style="color: grey;text-align: center;font-size: 0.8em;">CONOCE A LOS</h6>
-        <p style="text-align: center;font-weight: bold;font-size: 2em;">ORADORES</p>
-    </div>
-
-    <div class="container-fluid">
+ <div class="container-fluid">
         <div class="card-group">   
             <div class="row">
                 <div class="card" style="width: 19em">
@@ -122,6 +121,81 @@
                 </div> 
             </div>
         </div> 
-    </div> 
+ </div> 
+
+  <div class="conteiner-fluid" id="donde">
+    <div class="row">
+       <div class="col-sm-6 border" id="honolulu">
+        <img src="../img/honolulu.jpg" alt="honolulu" style="width:100%">
+       </div>
+    
+    
+      <div class="col-sm-6 border" id="octubre" style="background-color: rgb(68, 68, 68);">
+        <h2 style="font-size: 1.5em;"> Bs As - Octubre</h2>
+        <p style="font-size: 0.8em;">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Uidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la inla de Oahu la ciudad y el condado de Honolulu han formado una cuidad-condado consolidada que cubre toda la ciudad (aprodximadamente 600km<sup>2</sup> de superficie).</p>
+        <button type="button" class="btn btn-outline-secondary" style="font-size: 0.8em;">Conocé más</button>
+      </div> 
+    </div>
+  </div>
+
+  <div id="convora" class="conteiner-fluid">
+    <h6 style="color: grey;text-align: center;font-size: 0.8em;">CONVIERTETÉ EN UN</h6>
+    <p style="text-align: center;font-weight: bold;font-size: 2em;">ORADOR</p>
+    <p style="text-align: center;color: grey;font-size: 1em;">Anotaté como orador para dar una <u>charla ignite</u>. Cúentanos de qué quieres hablar!</p>
+  </div>
+
+  <form id="nomape">
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" placeholder="Nombre" name="text">
+      </div>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" placeholder="Apellido" name="text">
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+
+    <br>
+
+    <div class="row">
+     <div class="con-sm-3"></div>
+     <div class="col-sm-6" style="margin-left :25vw">
+       <textarea class="form-control" rows="5" placeholder="Sobre qué quieres hablar?" name="text"></textarea>
+       <p style="font-size:0.8em">Recuerda incluir un titulo para tu charla</p>  
+       <div class="d-grid">
+         <button type="button" class="btn btn-success btn-block">Enviar</button>
+       </div>
+     </div>
+    </div>
+  </form>
+<br>
+<div id="footer">
+    <footer>
+        <div class="row">
+          <div class="col-sm-1" style="margin-left:8vw">
+            <a class="nav-link" href="#">Preguntas frecuentes</a>
+          </div>
+          <div class="col-sm-1" id="ft2">
+            <a class="nav-link" href="#">Contáctanos</a>
+          </div>
+          <div class="col-sm-1" id="ft3">
+            <a class="nav-link" href="#">Prensa</a>
+          </div>
+          <div class="col-sm-1" id="ft4">
+            <a class="nav-link" href="#">Conferencia</a>
+          </div>
+          <div class="col-sm-1" id="ft5">
+            <a class="nav-link" href="#">Terminos y condiciones</a>
+          </div>
+          <div class="col-sm-1" id="ft6">
+            <a class="nav-link" href="#">Privacidad</a>
+          </div>
+          <div class="col-sm-1" id="ft7">
+            <a class="nav-link" href="#">Estudiantes</a>
+          </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
