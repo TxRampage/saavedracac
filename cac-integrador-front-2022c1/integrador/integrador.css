@@ -1,0 +1,84 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: #fcfcfc;
+}
+
+#nave{
+    margin-left: 4em;
+    
+}
+#mynavbar{
+    margin-left: 15em;
+}
+.navbar-text{
+    font-size: 2em;
+    text-align: right;
+
+
+}
+
+.carousel-slide{
+    position: relative;
+   
+}
+
+.d-block{
+    opacity: 0.8;
+}
+
+#contbsas{
+    text-align: right;
+    position: absolute;
+    font-size: 1em;
+    top: 35%;
+    right: 10%;
+    margin-left: 36%;
+
+}
+
+
+#oradores{
+    padding: 0.8em;
+}
+
+.card-group{
+    padding-left: 9em;
+
+}
+.card{
+    margin-left: 2em;    
+    padding-left: 0em;
+    padding-right: 0em;
+    align-items: center;
+}
+.card-img-top-fluid{
+    width: 19em;
+    height: 19em ;
+
+}
+
+#js1,#js2{
+    color: black;
+}
+.badge{
+    font-size: 0.5em;
+    font-weight: bold;
+
+}
+
+
+.card-title{
+    font-size: 1em;
+}
+.card-text{
+    font-size: 0.7em;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="carousel slide"] {
+      width: 100%;
+    }
+  }
